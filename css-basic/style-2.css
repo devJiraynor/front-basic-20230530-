@@ -90,3 +90,22 @@ body {
 .text-decoration-underline {
   text-decoration: underline;
 }
+
+/*! 배경 지정 방식 */
+/*! background-color: 배경 색상 지정 */
+#background-1 {
+  background-color: #0000ff;
+  height: 900px;
+}
+
+#background-2 {
+  /*! background-image: 배경 이미지 지정 */
+  height: 400px;
+  background-image: url('https://img.khan.co.kr/news/2023/01/02/news-p.v1.20230102.1f95577a65fc42a79ae7f990b39e7c21_P1.png');
+  /*! background-repeat: 배경 반복 지정 */
+  background-repeat: no-repeat;
+  /*! background-position: 배경 위치 지정 */
+  background-position: 50% 50%;
+  /*! background-size: 배경 크기 지정 */
+  /* background-size: 100% 100%; */
+}
