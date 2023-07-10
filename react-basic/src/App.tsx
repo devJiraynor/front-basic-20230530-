@@ -1,23 +1,7 @@
-import './App.css';
-import TestComponent, { testVariable } from './components/TestComponent';
-import './style.css';
-import Footer from './views/layout/Footer';
-import Header from './views/layout/Header';
-import Main from './views/layout/Main';
+import React from 'react'
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      {
-        // <TestComponent arg1={'문자열'} />
-        // <TestComponent arg1={'문자열2'} arg2={100} />
-      }
-      <Header count={0} />
-      <Main />
-      <Footer />
-    </>
-  );
+    <div>App</div>
+  )
 }
-
-export default App;
