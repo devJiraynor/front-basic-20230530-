@@ -17,3 +17,5 @@ const useStore = create<SignInStore>((set) => ({
 // state -> {email, password, setEmail}
 // { ...state } -> { email, password, setEmail }
 // { ...state, email: 'email' } -> { email: 'email', password, setEmail }
+
+export default useStore;
